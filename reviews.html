@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Reviews - Site de Maquiagem</title>
+   <style>
+     /* Resetando algumas configurações básicas */
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+ 
+     body {
+       font-family: Arial, sans-serif;
+       background-color: #f5f5f5;
+       color: #333;
+     }
+ 
+     .container {
+       width: 80%;
+       margin: 0 auto;
+       padding-top: 40px;
+     }
+ 
+     header {
+       text-align: center;
+       margin-bottom: 40px;
+     }
+ 
+     h1 {
+       font-size: 2.5em;
+       color: #6a4c9c; /* Lilás */
+     }
+ 
+     .reviews-section {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+     }
+ 
+     .review-card {
+       background-color: #e0f7fa; /* Azul claro */
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       transition: transform 0.3s ease-in-out;
+     }
+ 
+     .review-card:hover {
+       transform: scale(1.02);
+     }
+ 
+     .review-header {
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 15px;
+       font-weight: bold;
+     }
+ 
+     .user-name {
+       color: #6a4c9c; /* Lilás */
+     }
+ 
+     .rating {
+       color: #fbc02d; /* Cor dourada para as estrelas */
+     }
+ 
+     .review-content p {
+       font-size: 1.1em;
+       color: #555;
+     }
+ 
+     /* Responsividade */
+     @media (max-width: 768px) {
+       .container {
+         width: 90%;
+       }
+ 
+       h1 {
+         font-size: 2em;
+       }
+ 
+       .review-card {
+         padding: 15px;
+       }
+ 
+       .review-content p {
+         font-size: 1em;
+       }
+     }
+   </style>
+ </head>
+ <body>
+ 
+   <div class="container">
+     <header>
+       <h1>Comentários e Opiniões</h1>
+     </header>
+ 
+     <section class="reviews-section">
+       <div class="review-card">
+         <div class="review-header">
+           <span class="user-name">Ana Souza</span>
+           <span class="rating">⭐⭐⭐⭐⭐</span>
+         </div>
+         <div class="review-content">
+           <p>Adorei o atendimento e os produtos! A maquiagem durou o dia inteiro e a entrega foi super rápida. Com certeza voltarei a comprar!</p>
+         </div>
+       </div>
+ 
+       <div class="review-card">
+         <div class="review-header">
+           <span class="user-name">Carlos Oliveira</span>
+           <span class="rating">⭐⭐⭐⭐</span>
+         </div>
+         <div class="review-content">
+           <p>Os produtos são ótimos, mas o site poderia ser mais rápido. No geral, a experiência foi boa, e o atendimento foi atencioso.</p>
+         </div>
+       </div>
+ 
+       <div class="review-card">
+         <div class="review-header">
+           <span class="user-name">Juliana Santos</span>
+           <span class="rating">⭐⭐⭐⭐⭐</span>
+         </div>
+         <div class="review-content">
+           <p>Me surpreendi com a qualidade da maquiagem! O site é fácil de navegar e o atendimento ao cliente é excelente.</p>
+         </div>
+       </div>
+ 
+       <!-- Adicionar mais cards de comentários conforme necessário -->
+     </section>
+ 
+   </div>
+ 
+ </body>
+ </html>
+ 

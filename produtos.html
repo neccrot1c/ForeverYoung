@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Maquiagem</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo para o corpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333;
+        }
+
+        /* Cabeçalho e navegação */
+        header {
+            background-color: #d8a7f0; /* Lilás */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo da seção de produtos */
+        .produtos {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .produtos h1 {
+            color: #d8a7f0; /* Lilás */
+            margin-bottom: 20px;
+        }
+
+        .container-produtos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .produto {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .produto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .produto h3 {
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .produto p {
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .produto button {
+            background-color: #d8a7f0; /* Lilás */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .produto button:hover {
+            background-color: #b37cc8; /* Tom mais escuro de lilás */
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #d8a7f0; /* Lilás */
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            color: white;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/aluno/Documents/Forever%20Young/index.html#produtos">Home</a></li>
+                <li><a href="file:///C:/Users/aluno/Documents/Forever%20Young/sobre.html">Sobre</a></li>
+                <li><a href="file:///C:/Users/aluno/Documents/Forever%20Young/produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="produtos">
+        <h1>Produtos em Destaque</h1>
+        <div class="container-produtos">
+            <div class="produto">
+                <img src="https://cf.shopee.com.br/file/70cf3beafb389f907d83cce049be6c91" alt="Batom Matte">
+                <h3>Batom Matte</h3>
+                <p>Preço: R$ 39,99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://3163.cdn.simplo7.net/static/3163/sku/156258708217500.png" alt="Base Líquida">
+                <h3>Base Líquida</h3>
+                <p>Preço: R$ 89,99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://s.libertaddigital.com/2022/11/05/paleta-de-sombras-de-ojos-beauty-glazed.jpg" alt="Paleta de Sombras">
+                <h3>Paleta de Sombras</h3>
+                <p>Preço: R$ 149,99</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Maquiagem Store - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
